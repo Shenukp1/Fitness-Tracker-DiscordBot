@@ -7,7 +7,7 @@ from datetime import datetime
 import json
 import asyncio
 import re
-
+from text import G_CHANNEL_ID, R_CHANNEL_ID
 #UTILITES - AKA extra functions used
 
 

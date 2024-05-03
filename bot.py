@@ -6,7 +6,7 @@ from datetime import datetime
 import json
 import asyncio 
 from text import TOKEN, G_CHANNEL_ID, R_CHANNEL_ID
-from commands import
+from commands import setup_commands
 
 
 #initalizies the bot
