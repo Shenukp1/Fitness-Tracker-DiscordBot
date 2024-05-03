@@ -16,7 +16,7 @@ def initalize_bot():
     intents.messages = True
     intents.guilds = True
     client = commands.Bot(command_prefix='!', intents=intents)#prefix used for commands
-
+    return client
 
 
 #to run the bot

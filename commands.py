@@ -110,7 +110,8 @@ USER_PROTEIN_INTAKE = 150 #this can be changed
 user_protein = {}#dictionary to remember user and their protien intake
 
 def setup_commands(client):
-
+    
+    @client.event
     async def on_ready():
         starting = client.get_channel(R_CHANNEL_ID)
         
